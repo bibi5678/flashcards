@@ -1,34 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
-:root{
-  --text-color: #ffffff;
-  --card-front-color: #772D2D;
-  --card-back-color: #772D2D;
+:root {
+    --text-color: #ffffff;
+    --card-front-color: #772D2D;
+    --card-back-color: #772D2D;
 }
 
 body {
-  background: url(img/bg-desktop-red.webp);
-  font-family: Josefin Sans;
+    background: url(img/bg-desktop-red.webp);
+    font-family: Josefin Sans;
 }
+
 .cartao_conteudo {
     background-color: var(--card-front-color);
     text-align: center;
     height: 100%;
-  }
-  #container {
+}
+
+#container {
     display: flex;
     flex-wrap: wrap;
-  }
-  .cartao {
+}
+
+.cartao {
     margin: 1rem 1rem;
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
-  }
-  .cartao_conteudo p {
+}
+
+.cartao_conteudo p {
     padding: 4rem;
-  }
-  .cartao_conteudo h3 {
+}
+
+.cartao_conteudo h3 {
     color: var(--text-color);
     border: 1px solid var(--text-color);
     text-align: left;
@@ -37,25 +42,29 @@ body {
     margin: 0.6rem;
     border-radius: 0.6rem;
     font-size: 1vw;
-  }
-  .cartao_conteudo_pergunta p {
+}
+
+.cartao_conteudo_pergunta p {
     color: var(--text-color);
     font-weight: 500;
-  }
-  .cartao_conteudo_resposta p {
+}
+
+.cartao_conteudo_resposta p {
     color: var(--card-back-color);
     font-weight: 700;
-  }
-  footer {
+}
+
+footer {
     background-color: black;
     color: white;
     position: fixed;
     bottom: 0;
     width: 100%;
     height: 2rem;
-  }
-  footer p {
+}
+
+footer p {
     text-align: center;
     font-size: 0.6rem;
     margin-top: 0.5rem;
-  }
+}
