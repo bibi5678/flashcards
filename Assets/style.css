@@ -16,7 +16,7 @@ body {
     text-align: center;
     height: 100%;
     transform-style: preserve-3d;
-    transition: transform 300ms ease-in-out;
+    transition: transform 600ms ease-in-out;
 }
 
 #container {
@@ -56,7 +56,7 @@ body {
     color: var(--card-back-color);
     font-weight: 700;
 }
-.cartao:hover .cartão__conteudo{
+.cartao:hover.cartão__conteudo{
     transform: rotateY(180deg);
 }
 .cartao__conteudo__frente,
