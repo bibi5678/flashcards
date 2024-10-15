@@ -56,26 +56,30 @@ body {
     color: var(--card-back-color);
     font-weight: 700;
 }
-.cartao:hover.cartao__conteudo{
+
+.cartao:hover.cartao_conteudo {
     transform: rotateY(180deg);
 }
-.cartao__conteudo__pergunta,
-.cartao__conteudo__resposta{
+
+.cartao_conteudo_pergunta,
+.cartao_conteudo_resposta {
     backface-visibility: hidden;
     position: absolute;
     height: 100%;
     width: 100%;
 }
-.cartao__conteudo__resposta{
+
+.cartao_conteudo_resposta {
     transform: rotateY(180deg);
 }
+
 footer {
     background-color: black;
     color: white;
     position: fixed;
     bottom: 0;
-    width: 100%;Setting up your codespace
-    height: 2rem;
+    width: 100%;
+    Setting up your codespace height: 2rem;
 }
 
 footer p {
