@@ -4,6 +4,11 @@ criaCartao(
     ' respiração'
 )
 criaCartao(
+    'Geografia',
+    'O que é o desemprego estrutural?',
+    'É o desemprego causado pela  modernização tecnológica e à incorporação de automação no processo produtivo'
+)
+criaCartao(
     'Historia',
     'Quais eram os países da tríplice entente?',
     'França, Inglaterra e Rússia'
@@ -29,6 +34,27 @@ criaCartao(
     'Princípio da Segregação dos Caracteres'
 )
 criaCartao(
-    'SOCIOLOGIA'
-    ''
+    'SOCIOLOGIA',
+    'O que é cultura?',
+    'É o conjunto de tradições, crenças e costumes de determinado grupo social'
+)
+criaCartao(
+    'Matemática',
+    'Qual é a fórmula do cosseno ?',
+    'cos= cateto adjacente/hipotenusa'
+)
+criaCartao(
+    'Programação',
+    'Qual a função do html?',
+    'Define o ínicio e o fim de um documento'
+)
+criaCartao(
+    'Língua Inglesa',
+    'Para que é usado o “going to”?',
+    'É usado para ações futuras'
+)
+criaCartao(
+    'Entretenimento',
+    'Sobre o que é o filme Harry Potter?',
+    'É sobre um bruxo que vai para uma escola de mágia'
 )
